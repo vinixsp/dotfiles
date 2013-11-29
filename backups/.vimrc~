@@ -110,3 +110,5 @@ inoremap <s-tab> <c-n>
 " NERDTree stuff
 autocmd vimenter * if !argc() | NERDTree | endif
 map <C-t> :NERDTreeToggle<CR>
+
+let g:snippets_dir = "~/.vim/snippets"
